@@ -5,7 +5,7 @@ from time import strftime
 
 root = Tk()
 
-root.title("Horloge")
+root.title("Horloge avec le langage python")
 
 def time():
     string = strftime('%H:%M:%S %p')
